@@ -4,14 +4,13 @@ My Python attempts at Advent of Code 2024
 
 https://adventofcode.com/2024
 
-To run each script, first `cd` into the `src` directory:
+To run each script from the root directory, use
 
 ```
-cd src
-python day_1.py
+python src/day_1.py
 ```
 
-To run tests use
+To run tests, simply type
 ```
 pytest
 ```

@@ -33,7 +33,7 @@ def get_counter(list: List[Any]):
     return counter
 
 if __name__ == "__main__":
-    filepath = os.path.join("inputs", "day_1_input.txt")
+    filepath = os.path.join("src", "inputs", "day_1_input.txt")
     with open(filepath, mode="r") as f:
         list_1, list_2 = [], []
         for line in f:
